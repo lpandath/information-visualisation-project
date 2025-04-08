@@ -1,0 +1,21 @@
+@import '../src/styles/colors.css';
+
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --heading-font-size: 24px;
+}
+
+/* TODO: use the TUGraz guideline  */
+.sb-show-main {
+  font-family: var(--heading-font-family);
+}
+
+.sb-show-main h1,
+.sb-show-main h2,
+.sb-show-main h3,
+.sb-show-main h4,
+.sb-show-main h5,
+.sb-show-main h6 {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+} 

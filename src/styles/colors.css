@@ -1,0 +1,72 @@
+:root {
+  /* Faculty Colors */
+  --faculty-architecture: #CC9933;
+  --faculty-architecture-cmyk: 14/44/93/1;
+  --faculty-architecture-rgb: 204/153/51;
+
+  --faculty-civil-engineering: #663333;
+  --faculty-civil-engineering-cmyk: 37/84/70/43;
+  --faculty-civil-engineering-rgb: 102/51/51;
+
+  --faculty-electrical-engineering: #0066CC;
+  --faculty-electrical-engineering-cmyk: 90/58/0/0;
+  --faculty-electrical-engineering-rgb: 0/102/204;
+
+  --faculty-mechanical-engineering: #666699;
+  --faculty-mechanical-engineering-cmyk: 69/62/10/1;
+  --faculty-mechanical-engineering-rgb: 102/102/153;
+
+  --faculty-technical-chemistry: #19B4E3;
+  --faculty-technical-chemistry-cmyk: 71/5/5/0;
+  --faculty-technical-chemistry-rgb: 25/180/227;
+
+  --faculty-computer-science: #3D5E3C;
+  --faculty-computer-science-cmyk: 91/33/99/23;
+  --faculty-computer-science-rgb: 61/94/60;
+
+  --faculty-mathematics: #E4154B;
+  --faculty-mathematics-cmyk: 0/96/57/0;
+  --faculty-mathematics-rgb: 247/1/70;
+  --faculty-mathematics-pantone: Pantone 199C;
+
+  /* Black Colors */
+  --color-pure-black: #000000;
+  --color-pure-black-cmyk: 0/0/0/100;
+  --color-pure-black-rgb: 0/0/0;
+  --color-pure-black-pantone: Pantone Neutral Black C;
+
+  --color-deep-black: #000000;
+  --color-deep-black-cmyk: 40/20/20/100;
+  --color-deep-black-rgb: 0/0/0;
+
+  /* Semantic Color Names */
+  --color-primary: var(--faculty-mathematics);
+  --color-secondary: var(--faculty-electrical-engineering);
+  --color-accent: var(--faculty-technical-chemistry);
+  --color-text: var(--color-pure-black);
+  --color-background: #FFFFFF;
+  --color-link: var(--faculty-electrical-engineering);
+  
+  /* Additional Faculty Colors */
+  --faculty-arts: #E63946;
+  --faculty-science: #457B9D;
+  --faculty-engineering: #2A9D8F;
+  --faculty-medicine: #E9C46A;
+  --faculty-law: #8338EC;
+  --faculty-business: #FB8500;
+  
+  /* Semantic Colors */
+  --primary: #1D3557;
+  --secondary: #6C757D;
+  --success: #28A745;
+  --danger: #DC3545;
+  --warning: #FFC107;
+  --info: #17A2B8;
+  
+  /* UI Colors */
+  --background: #F8F9FA;
+  --surface: #FFFFFF;
+  --text-primary: #212529;
+  --text-secondary: #6C757D;
+  --border: #DEE2E6;
+} 
