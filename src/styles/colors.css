@@ -1,5 +1,5 @@
 :root {
-  /* Faculty Colors */
+  /* TUGraz colors */
   --faculty-architecture: #CC9933;
   --faculty-architecture-cmyk: 14/44/93/1;
   --faculty-architecture-rgb: 204/153/51;
@@ -29,7 +29,7 @@
   --faculty-mathematics-rgb: 247/1/70;
   --faculty-mathematics-pantone: Pantone 199C;
 
-  /* Black Colors */
+  /* Black colors */
   --color-pure-black: #000000;
   --color-pure-black-cmyk: 0/0/0/100;
   --color-pure-black-rgb: 0/0/0;
@@ -47,7 +47,7 @@
   --color-background: #FFFFFF;
   --color-link: var(--faculty-electrical-engineering);
   
-  /* Additional Faculty Colors */
+  /* Additional colors */
   --faculty-arts: #E63946;
   --faculty-science: #457B9D;
   --faculty-engineering: #2A9D8F;
@@ -55,7 +55,7 @@
   --faculty-law: #8338EC;
   --faculty-business: #FB8500;
   
-  /* Semantic Colors */
+  /* Semantic colors */
   --primary: #1D3557;
   --secondary: #6C757D;
   --success: #28A745;
@@ -63,7 +63,7 @@
   --warning: #FFC107;
   --info: #17A2B8;
   
-  /* UI Colors */
+  /* UI colors */
   --background: #F8F9FA;
   --surface: #FFFFFF;
   --text-primary: #212529;

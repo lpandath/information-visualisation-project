@@ -1,0 +1,51 @@
+export const populationTrends = [
+  {
+    year: 2018,
+    Graz: 286292,
+    Leoben: 60000,
+    Weiz: 80000,
+    Leibnitz: 90000,
+  },
+  {
+    year: 2019,
+    Graz: 288806,
+    Leoben: 60200,
+    Weiz: 80500,
+    Leibnitz: 90500,
+  },
+  {
+    year: 2020,
+    Graz: 291072,
+    Leoben: 60400,
+    Weiz: 81000,
+    Leibnitz: 91000,
+  },
+  {
+    year: 2021,
+    Graz: 291134,
+    Leoben: 60600,
+    Weiz: 81500,
+    Leibnitz: 91500,
+  },
+  {
+    year: 2022,
+    Graz: 292630,
+    Leoben: 60800,
+    Weiz: 82000,
+    Leibnitz: 92000,
+  },
+  {
+    year: 2023,
+    Graz: 298479,
+    Leoben: 61000,
+    Weiz: 82500,
+    Leibnitz: 92500,
+  },
+  {
+    year: 2024,
+    Graz: 302749,
+    Leoben: 61200,
+    Weiz: 83000,
+    Leibnitz: 93000,
+  },
+];
