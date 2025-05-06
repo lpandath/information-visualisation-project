@@ -1,14 +1,15 @@
-import React from 'react';
 import {
-  ResponsiveContainer,
-  LineChart,
+  CartesianGrid,
+  Legend,
   Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
   XAxis,
   YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
 } from 'recharts';
+
+import React from 'react';
 
 const data = [
   { year: '2018', population: 286292},
@@ -40,7 +41,8 @@ export const GrazPopulation = () => {
   );
 };
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: 'Charts/GrazPopulation',
+  title: 'Visualization/GrazPopulation',
   component: GrazPopulation,
 };

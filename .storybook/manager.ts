@@ -4,8 +4,6 @@ import { create } from '@storybook/theming/create';
 const theme = create({
   base: "light",
   brandTitle: "TU Graz Data Visualization Design System (Storybook)",
-  brandUrl: "https://example.com",
-  brandImage: "/logo-1.png",
   brandTarget: "_self",
 });
 

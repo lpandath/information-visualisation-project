@@ -4,6 +4,7 @@ import {
   CategoryScale,
   Chart as ChartJS,
   Legend,
+  LineController,
   LineElement,
   LinearScale,
   PointElement,
@@ -21,12 +22,13 @@ ChartJS.register(
   CategoryScale,
   LinearScale,
   BarElement,
+  BarController,
   LineElement,
+  LineController,
   PointElement,
   Title,
   Tooltip,
-  Legend,
-  BarController
+  Legend
 );
 
 export interface ChartDataPoint {

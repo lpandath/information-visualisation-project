@@ -25,9 +25,6 @@ export const DesignSystemDocumentation: React.FC = () => {
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3 }}>
           <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 calc(33.333% - 16px)' } }}>
             <Paper elevation={2} sx={{ p: 3, height: '100%' }}>
-              <Typography variant="h6" gutterBottom>
-                Our Style Choices
-              </Typography>
               <Typography variant="body2" component="ul" sx={{ pl: 2 }}>
                 <li>Colors we picked for different data types</li>
                 <li>Text sizes that are easy to read</li>
@@ -38,9 +35,6 @@ export const DesignSystemDocumentation: React.FC = () => {
           </Box>
           <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 calc(33.333% - 16px)' } }}>
             <Paper elevation={2} sx={{ p: 3, height: '100%' }}>
-              <Typography variant="h6" gutterBottom>
-                Our Components
-              </Typography>
               <Typography variant="body2" component="ul" sx={{ pl: 2 }}>
                 <li>Charts we built to show data</li>
                 <li>Interactive parts we added</li>
@@ -51,9 +45,6 @@ export const DesignSystemDocumentation: React.FC = () => {
           </Box>
           <Box sx={{ flex: { xs: '1 1 100%', md: '1 1 calc(33.333% - 16px)' } }}>
             <Paper elevation={2} sx={{ p: 3, height: '100%' }}>
-              <Typography variant="h6" gutterBottom>
-                How We Made It
-              </Typography>
               <Typography variant="body2" component="ul" sx={{ pl: 2 }}>
                 <li>Our approach to building it</li>
                 <li>Making sure it&apos;s easy to use</li>
@@ -135,24 +126,9 @@ export const DesignSystemDocumentation: React.FC = () => {
                 pantone: 'Pantone 199C',
                 cssVar: '--faculty-mathematics',
               },
-              {
-                name: 'Pure Black',
-                cmyk: '0/0/0/100',
-                rgb: '0/0/0',
-                hex: '#000000',
-                pantone: 'Pantone Neutral Black C',
-                cssVar: '--color-pure-black',
-              },
-              {
-                name: 'Deep Black',
-                cmyk: '40/20/20/100',
-                rgb: '0/0/0',
-                hex: '#000000',
-                cssVar: '--color-deep-black',
-              },
             ].map((color) => (
               <Box 
-                key={color.name}
+                key={color.name} 
                 sx={{ 
                   flexBasis: { xs: '100%', sm: 'calc(50% - 24px)', md: 'calc(33.333% - 24px)' },
                   minWidth: { xs: '100%', sm: 'calc(50% - 24px)', md: 'calc(33.333% - 24px)' },
