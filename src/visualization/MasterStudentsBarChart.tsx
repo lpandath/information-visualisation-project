@@ -17,6 +17,8 @@ import { Box, useTheme } from '@mui/material';
 
 import { Chart } from 'react-chartjs-2';
 import React from 'react';
+import { Yaldevi } from 'next/font/google';
+  
 
 ChartJS.register(
     CategoryScale,
@@ -167,7 +169,7 @@ export const MasterStudentsBarChart: React.FC<MasterStudentsBarChartProps> = ({
                 },
                 title: {
                     display: !!yAxisTitle,
-                    text: "yAxisTitle",
+                    text: yAxisTitle,
                     font: {
                         family: theme.typography.fontFamily,
                         size: 12,
